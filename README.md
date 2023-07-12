@@ -1,1 +1,1 @@
-# Redux-Tasks
+Redux is an open-source JavaScript library for managing and centralizing application state.
