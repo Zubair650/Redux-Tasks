@@ -7,10 +7,6 @@ const addUser = 'addUser'
 const incrementCounterState = {
     count: 0
 }
-const incrementUserState =
-{
-    user: [{ name: 'Zubair' }]
-}
 
 const incrementCounterAction = () => {
     return {
@@ -27,13 +23,6 @@ const decrementCounterAction = () => {
 const resetAction = () => {
     return {
         type: RESET
-    }
-}
-
-const AddUser = () => {
-    return {
-        type: addUser,
-        payload: { name: 'Ahmed' }
     }
 }
 
